@@ -152,7 +152,7 @@ def gerar_arquivos_de_configuracao(grade):
         f.write(f"ENTRADA: {entrada_id}\n")
         f.write(f"SAIDA: {saida_id}\n")
         f.write(f"MINOTAURO_INICIO: {minotauro_inicio}\n")
-        f.write("PERCEPCAO_DISTANCIA: 8\n")
+        f.write("PERCEPCAO_DISTANCIA: 20\n")
         f.write("TEMPO_MAXIMO: 150\n\n")
 
         f.write("# --------------------------------------------\n")

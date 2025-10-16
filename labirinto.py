@@ -19,7 +19,7 @@ CHANCE_VITORIA_PRISIONEIRO  = 0.01  # 0.01 = 1%
 ## --- Aparência do Grafo ---
 USAR_LAYOUT_DE_GRADE        = True  # True para desenhar em grade (usa posicoes.txt), False para layout automático.
 TAMANHO_JANELA              = (12, 8) # (Largura, Altura)
-VELOCIDADE_SIMULACAO_SEGUNDOS = 0.2   # Menor = mais rápido
+VELOCIDADE_SIMULACAO_SEGUNDOS = 0.7   # Menor = mais rápido
 
 ## --- Estilo dos Nós (Círculos) ---
 TAMANHO_NO                  = 400
