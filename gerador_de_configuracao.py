@@ -134,20 +134,20 @@ def gerar_arquivos_de_configuracao(grade):
     # Salva o arquivo de configuração do labirinto com formatação melhorada
     with open('labirinto.txt', 'w') as f:
         f.write("# ============================================\n")
-        f.write("# ARQUIVO DE CONFIGURAÇÃO DO LABIRINTO DE CRETA\n")
+        f.write("# ARQUIVO DE CONFIGURACAO DO LABIRINTO DE CRETA\n")
         f.write("# Gerado automaticamente.\n")
         f.write("# ============================================\n\n")
         
         num_vertices = len(mapa_id_para_coords)
         num_arestas = len(arestas_str)
         f.write("# --------------------------------------------\n")
-        f.write("# PARÂMETROS GERAIS DO GRAFO\n")
+        f.write("# PARAMETROS GERAIS DO GRAFO\n")
         f.write("# --------------------------------------------\n")
         f.write(f"NUM_VERTICES: {num_vertices}\n")
         f.write(f"NUM_ARESTAS: {num_arestas}\n\n")
         
         f.write("# --------------------------------------------\n")
-        f.write("# PARÂMETROS DA SIMULAÇÃO\n")
+        f.write("# PARAMETROS DA SIMULACAO\n")
         f.write("# --------------------------------------------\n")
         f.write(f"ENTRADA: {entrada_id}\n")
         f.write(f"SAIDA: {saida_id}\n")
@@ -156,7 +156,7 @@ def gerar_arquivos_de_configuracao(grade):
         f.write("TEMPO_MAXIMO: 150\n\n")
 
         f.write("# --------------------------------------------\n")
-        f.write("# DEFINIÇÃO DAS ARESTAS (u, v, peso)\n")
+        f.write("# DEFINICAO DAS ARESTAS (u, v, peso)\n")
         f.write("# --------------------------------------------\n")
         f.write("ARESTAS:\n")
         f.write("\n".join(arestas_str))
